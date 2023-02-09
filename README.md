@@ -52,11 +52,8 @@ To deploy this project run
 
 ## Contributing
 
-Contributions are always welcome!
+Contributions are welcome anytime my brother.
 
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
 
 ## Running Tests
 
