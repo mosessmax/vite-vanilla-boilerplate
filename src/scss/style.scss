@@ -1,6 +1,17 @@
-// This is the single file output by sass. It is intended to ONLY @import other files.
+@import "utilities/sr-only";
+@import "utilities/sr-only";
+@import "utilities/breakpoints";
+@import "utilities/functions";
+@import "utilities/mixins";
 
-@use 'base';
-@use 'utilities';
-@use 'components';
-@use 'layout';
+@import "base/reset";
+@import "base/variables";
+@import "base/font-face";
+@import "base/typography";
+@import "base/base";
+
+@import "components/nav";
+@import "components/buttons";
+
+@import "layout/home";
+@import "layout/grid";

@@ -1,8 +1,78 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  background: $white;
+  font-family: $primary-font-family, sans-serif;
+  font-size: 88px;
+  line-height: 88px;
+  color: $black;
+  padding: 80px;
+  overflow-x: hidden;
+  font-feature-settings: "case" on;
 }
-.header {
-    margin-top: 2rem;
-    color: green;
+
+p {
+  margin-top: 80px;
+  letter-spacing: -4px;
+}
+
+.cta {
+  background: $black;
+  padding: 12px 32px 20px 32px;
+  border-radius: 80px;
+  color: #fff;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  height: 54px;
+  font-size: $h3-font-size;
+  line-height: normal;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    // opacity: 0.5;
+    background-color: $dark-purple;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid $dark-purple;
+  }
+}
+
+h3 {
+  font-size: $h3-font-size;
+  line-height: $h3-line-height;
+  font-weight: 500;
+  color: $black;
+  margin-top: 20px;
+}
+.footer {
+  margin-top: 80px;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: normal;
+  color: #aab1b8;
+}
+
+@media only screen and (max-width: 1280px) {
+  p {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2px;
+  }
+  h3 {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    padding: 32px;
+    overflow-x: hidden;
+  }
+
+  .c2a {
+    width: calc(100vw - 144px);
     text-align: center;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
 }

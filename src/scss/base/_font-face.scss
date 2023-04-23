@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url("/src/fonts/PPNeueMontreal-Regular.ttf") format("truetype"),
+    url("/src/fonts/PPNeueMontreal-Regular.woff") format("woff"),
+    url("/src/fonts/PPNeueMontreal-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url("/src/fonts/PPNeueMontreal-Book.ttf") format("truetype"),
+    url("/src/fonts/PPNeueMontreal-Book.woff") format("woff"),
+    url("/src/fonts/PPNeueMontreal-Book.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
